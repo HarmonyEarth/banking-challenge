@@ -1,0 +1,804 @@
+{
+  "data": [
+    {
+      "effectiveDate": "2024-07-26T02:38:43.642Z",
+      "name": "Breitenberg, Hagenes and Zieme",
+      "amount": "757.41",
+      "type": "deposit",
+      "direction": "withdrawal",
+      "memo": "withdrawal transaction at Flatley, Wunsch and Gibson using card ending with ***(...5970) for GEL 56.16 in account ***06221267"
+    },
+    {
+      "effectiveDate": "2024-07-26T06:13:58.795Z",
+      "name": "Ward, Barton and Streich",
+      "amount": "959.70",
+      "type": "payment",
+      "direction": "deposit",
+      "memo": "deposit transaction at Johnston - Roberts using card ending with ***(...1384) for KHR 392.08 in account ***35078956"
+    },
+    {
+      "effectiveDate": "2024-07-26T17:57:18.994Z",
+      "name": "Powlowski, Effertz and Parisian",
+      "amount": "946.12",
+      "type": "payment",
+      "direction": "withdrawal",
+      "memo": "invoice transaction at Mante, Harvey and Altenwerth using card ending with ***(...7583) for GMD 916.91 in account ***21480026"
+    },
+    {
+      "effectiveDate": "2024-07-26T03:53:50.542Z",
+      "name": "Jast and Sons",
+      "amount": "15.63",
+      "type": "deposit",
+      "direction": "deposit",
+      "memo": "invoice transaction at Feeney and Sons using card ending with ***(...2000) for GEL 195.21 in account ***26781694"
+    },
+    {
+      "effectiveDate": "2024-07-26T18:07:19.471Z",
+      "name": "Douglas - Johnson",
+      "amount": "552.30",
+      "type": "payment",
+      "direction": "deposit",
+      "memo": "withdrawal transaction at Denesik LLC using card ending with ***(...0511) for MGA 331.55 in account ***71687513"
+    },
+    {
+      "effectiveDate": "2024-07-26T03:15:44.386Z",
+      "name": "Goyette - Murray",
+      "amount": "77.61",
+      "type": "deposit",
+      "direction": "withdrawal",
+      "memo": "invoice transaction at Hudson, Vandervort and Kuhic using card ending with ***(...1275) for SYP 498.92 in account ***34993483"
+    },
+    {
+      "effectiveDate": "2024-07-26T06:31:54.545Z",
+      "name": "Jakubowski Inc",
+      "amount": "333.90",
+      "type": "payment",
+      "direction": "deposit",
+      "memo": "payment transaction at Wolff and Sons using card ending with ***(...7797) for PHP 438.65 in account ***81672559"
+    },
+    {
+      "effectiveDate": "2024-07-26T03:52:26.985Z",
+      "name": "Leffler, Hauck and Heathcote",
+      "amount": "417.20",
+      "type": "withdrawal",
+      "direction": "deposit",
+      "memo": "deposit transaction at Bogisich, Nikolaus and Ritchie using card ending with ***(...3024) for COP 785.24 in account ***34005932"
+    },
+    {
+      "effectiveDate": "2024-07-26T14:52:55.432Z",
+      "name": "Nader, Torphy and Langworth",
+      "amount": "462.34",
+      "type": "withdrawal",
+      "direction": "deposit",
+      "memo": "withdrawal transaction at Schiller, Kuhlman and Thiel using card ending with ***(...5662) for KPW 651.58 in account ***83142481"
+    },
+    {
+      "effectiveDate": "2024-07-26T02:17:23.136Z",
+      "name": "Thiel, Effertz and Kling",
+      "amount": "282.86",
+      "type": "withdrawal",
+      "direction": "deposit",
+      "memo": "withdrawal transaction at Gleichner and Sons using card ending with ***(...1670) for BTN 394.94 in account ***50431473"
+    },
+    {
+      "effectiveDate": "2024-07-26T05:42:05.059Z",
+      "name": "Koss, Ernser and Senger",
+      "amount": "616.31",
+      "type": "invoice",
+      "direction": "deposit",
+      "memo": "payment transaction at Quitzon - Walker using card ending with ***(...5752) for CNY 471.31 in account ***71892559"
+    },
+    {
+      "effectiveDate": "2024-07-26T01:17:46.079Z",
+      "name": "Gusikowski, Blick and Beier",
+      "amount": "709.21",
+      "type": "withdrawal",
+      "direction": "withdrawal",
+      "memo": "withdrawal transaction at Breitenberg Inc using card ending with ***(...2869) for SCR 368.80 in account ***03841197"
+    },
+    {
+      "effectiveDate": "2024-07-26T08:32:42.168Z",
+      "name": "Weber LLC",
+      "amount": "105.74",
+      "type": "deposit",
+      "direction": "withdrawal",
+      "memo": "invoice transaction at Hettinger - Bernhard using card ending with ***(...7165) for LBP 537.40 in account ***94667380"
+    },
+    {
+      "effectiveDate": "2024-07-25T22:52:27.747Z",
+      "name": "Harber and Sons",
+      "amount": "355.74",
+      "type": "withdrawal",
+      "direction": "withdrawal",
+      "memo": "payment transaction at Auer, Emmerich and Ziemann using card ending with ***(...2063) for NPR 842.69 in account ***02039092"
+    },
+    {
+      "effectiveDate": "2024-07-26T04:01:22.283Z",
+      "name": "Bogisich Group",
+      "amount": "94.15",
+      "type": "payment",
+      "direction": "deposit",
+      "memo": "withdrawal transaction at Keebler, Runte and Kreiger using card ending with ***(...4861) for BTN 207.85 in account ***66127689"
+    },
+    {
+      "effectiveDate": "2024-07-25T21:25:43.494Z",
+      "name": "Schmeler and Sons",
+      "amount": "167.21",
+      "type": "payment",
+      "direction": "deposit",
+      "memo": "deposit transaction at Lockman, Herzog and Rutherford using card ending with ***(...6024) for TTD 518.58 in account ***55842142"
+    },
+    {
+      "effectiveDate": "2024-07-25T19:46:03.466Z",
+      "name": "Borer Inc",
+      "amount": "226.63",
+      "type": "payment",
+      "direction": "deposit",
+      "memo": "deposit transaction at Gerlach, Roob and Lemke using card ending with ***(...5256) for KGS 227.91 in account ***98470421"
+    },
+    {
+      "effectiveDate": "2024-07-26T02:37:11.307Z",
+      "name": "Nikolaus - Crooks",
+      "amount": "779.60",
+      "type": "withdrawal",
+      "direction": "withdrawal",
+      "memo": "payment transaction at Ankunding Inc using card ending with ***(...4101) for NAD 475.62 in account ***53291539"
+    },
+    {
+      "effectiveDate": "2024-07-26T14:58:41.393Z",
+      "name": "Weimann, Nolan and Keebler",
+      "amount": "421.81",
+      "type": "payment",
+      "direction": "deposit",
+      "memo": "withdrawal transaction at Wyman, Keeling and O'Connell using card ending with ***(...2117) for SBD 199.72 in account ***18830969"
+    },
+    {
+      "effectiveDate": "2024-07-25T21:24:42.799Z",
+      "name": "Jast, Lubowitz and Nolan",
+      "amount": "757.73",
+      "type": "withdrawal",
+      "direction": "withdrawal",
+      "memo": "deposit transaction at McCullough, Roob and Schulist using card ending with ***(...5366) for AMD 273.73 in account ***14005730"
+    },
+    {
+      "effectiveDate": "2024-07-25T21:38:03.677Z",
+      "name": "Hettinger, Hills and VonRueden",
+      "amount": "224.72",
+      "type": "deposit",
+      "direction": "withdrawal",
+      "memo": "withdrawal transaction at Jakubowski Group using card ending with ***(...6101) for MRU 837.43 in account ***88368555"
+    },
+    {
+      "effectiveDate": "2024-07-26T12:24:00.210Z",
+      "name": "Beatty Inc",
+      "amount": "889.59",
+      "type": "payment",
+      "direction": "deposit",
+      "memo": "invoice transaction at Gerhold Inc using card ending with ***(...8441) for ETB 827.71 in account ***20583743"
+    },
+    {
+      "effectiveDate": "2024-07-26T14:35:46.429Z",
+      "name": "Farrell LLC",
+      "amount": "125.86",
+      "type": "deposit",
+      "direction": "withdrawal",
+      "memo": "withdrawal transaction at Jacobi, Hills and Hansen using card ending with ***(...5521) for ZAR 522.98 in account ***56945394"
+    },
+    {
+      "effectiveDate": "2024-07-26T08:21:01.680Z",
+      "name": "Schinner LLC",
+      "amount": "662.91",
+      "type": "deposit",
+      "direction": "withdrawal",
+      "memo": "withdrawal transaction at Zemlak and Sons using card ending with ***(...0335) for XAF 255.47 in account ***33036000"
+    },
+    {
+      "effectiveDate": "2024-07-26T07:07:19.859Z",
+      "name": "Gorczany Group",
+      "amount": "929.60",
+      "type": "invoice",
+      "direction": "withdrawal",
+      "memo": "payment transaction at Conroy - Murray using card ending with ***(...3160) for NZD 422.09 in account ***02081420"
+    },
+    {
+      "effectiveDate": "2024-07-26T01:45:23.642Z",
+      "name": "Schowalter, Jacobson and Kuphal",
+      "amount": "889.32",
+      "type": "deposit",
+      "direction": "deposit",
+      "memo": "deposit transaction at Waelchi, Langosh and Senger using card ending with ***(...6846) for PKR 679.10 in account ***89732264"
+    },
+    {
+      "effectiveDate": "2024-07-26T07:13:47.525Z",
+      "name": "Denesik LLC",
+      "amount": "693.95",
+      "type": "invoice",
+      "direction": "withdrawal",
+      "memo": "deposit transaction at Conroy - Adams using card ending with ***(...2712) for FKP 878.74 in account ***06095667"
+    },
+    {
+      "effectiveDate": "2024-07-26T09:11:54.587Z",
+      "name": "Terry - Schmidt",
+      "amount": "743.34",
+      "type": "deposit",
+      "direction": "withdrawal",
+      "memo": "invoice transaction at Muller - Hettinger using card ending with ***(...4167) for SGD 965.82 in account ***36101716"
+    },
+    {
+      "effectiveDate": "2024-07-25T22:08:00.210Z",
+      "name": "Koch - Schuppe",
+      "amount": "245.87",
+      "type": "withdrawal",
+      "direction": "deposit",
+      "memo": "payment transaction at Rodriguez, Beer and Morissette using card ending with ***(...4180) for SZL 347.46 in account ***22568110"
+    },
+    {
+      "effectiveDate": "2024-07-26T06:53:05.938Z",
+      "name": "Connelly and Sons",
+      "amount": "672.43",
+      "type": "deposit",
+      "direction": "withdrawal",
+      "memo": "withdrawal transaction at Murphy Inc using card ending with ***(...1505) for MVR 142.86 in account ***65141531"
+    },
+    {
+      "effectiveDate": "2024-07-26T16:30:01.250Z",
+      "name": "Hahn, Walker and Olson",
+      "amount": "17.57",
+      "type": "payment",
+      "direction": "withdrawal",
+      "memo": "payment transaction at Cruickshank, Jast and Rolfson using card ending with ***(...0545) for NGN 905.59 in account ***42241533"
+    },
+    {
+      "effectiveDate": "2024-07-26T09:41:35.949Z",
+      "name": "Buckridge - Mosciski",
+      "amount": "529.57",
+      "type": "invoice",
+      "direction": "deposit",
+      "memo": "withdrawal transaction at Gleichner - Beahan using card ending with ***(...2827) for SCR 872.76 in account ***46471414"
+    },
+    {
+      "effectiveDate": "2024-07-26T13:11:58.658Z",
+      "name": "Leffler - Schinner",
+      "amount": "160.64",
+      "type": "withdrawal",
+      "direction": "deposit",
+      "memo": "payment transaction at Little Inc using card ending with ***(...6378) for LRD 540.62 in account ***15903278"
+    },
+    {
+      "effectiveDate": "2024-07-26T06:43:31.133Z",
+      "name": "Gorczany, McKenzie and Turner",
+      "amount": "378.72",
+      "type": "payment",
+      "direction": "deposit",
+      "memo": "invoice transaction at Abernathy - Sanford using card ending with ***(...0338) for FJD 264.27 in account ***11088416"
+    },
+    {
+      "effectiveDate": "2024-07-26T09:49:31.275Z",
+      "name": "Kuhn LLC",
+      "amount": "109.94",
+      "type": "invoice",
+      "direction": "withdrawal",
+      "memo": "withdrawal transaction at Lakin LLC using card ending with ***(...0417) for USD 155.76 in account ***61108771"
+    },
+    {
+      "effectiveDate": "2024-07-26T06:32:47.008Z",
+      "name": "Padberg and Sons",
+      "amount": "544.60",
+      "type": "invoice",
+      "direction": "withdrawal",
+      "memo": "withdrawal transaction at Kilback and Sons using card ending with ***(...1558) for XOF 842.49 in account ***61903923"
+    },
+    {
+      "effectiveDate": "2024-07-26T13:15:52.111Z",
+      "name": "Auer - Krajcik",
+      "amount": "448.46",
+      "type": "withdrawal",
+      "direction": "deposit",
+      "memo": "withdrawal transaction at Wiza, Crist and Satterfield using card ending with ***(...7888) for NAD 392.62 in account ***96153931"
+    },
+    {
+      "effectiveDate": "2024-07-26T11:46:45.804Z",
+      "name": "DuBuque, Block and Mann",
+      "amount": "514.28",
+      "type": "withdrawal",
+      "direction": "withdrawal",
+      "memo": "payment transaction at Armstrong - Harvey using card ending with ***(...8995) for FKP 792.24 in account ***01516478"
+    },
+    {
+      "effectiveDate": "2024-07-26T14:42:46.801Z",
+      "name": "Jenkins - Fritsch",
+      "amount": "416.67",
+      "type": "payment",
+      "direction": "withdrawal",
+      "memo": "invoice transaction at Runolfsson, Mosciski and Tillman using card ending with ***(...0719) for MXN 742.38 in account ***82060053"
+    },
+    {
+      "effectiveDate": "2024-07-26T03:21:34.723Z",
+      "name": "Leffler, Weissnat and Lakin",
+      "amount": "137.62",
+      "type": "deposit",
+      "direction": "deposit",
+      "memo": "invoice transaction at Gislason - Mraz using card ending with ***(...6939) for ARS 66.69 in account ***75468904"
+    },
+    {
+      "effectiveDate": "2024-07-26T14:22:01.976Z",
+      "name": "Blick, Metz and Schaefer",
+      "amount": "705.75",
+      "type": "payment",
+      "direction": "withdrawal",
+      "memo": "invoice transaction at Reinger and Sons using card ending with ***(...7612) for MZN 77.33 in account ***19919612"
+    },
+    {
+      "effectiveDate": "2024-07-26T09:10:38.089Z",
+      "name": "Dickens LLC",
+      "amount": "857.42",
+      "type": "deposit",
+      "direction": "deposit",
+      "memo": "deposit transaction at Rodriguez Group using card ending with ***(...5604) for TZS 846.13 in account ***96275755"
+    },
+    {
+      "effectiveDate": "2024-07-26T05:15:55.830Z",
+      "name": "Bashirian, Fisher and Walker",
+      "amount": "576.85",
+      "type": "invoice",
+      "direction": "withdrawal",
+      "memo": "withdrawal transaction at Raynor and Sons using card ending with ***(...2152) for RWF 952.12 in account ***17975209"
+    },
+    {
+      "effectiveDate": "2024-07-26T06:27:46.147Z",
+      "name": "Russel - Waelchi",
+      "amount": "627.03",
+      "type": "deposit",
+      "direction": "withdrawal",
+      "memo": "deposit transaction at Lynch - Barton using card ending with ***(...6273) for EUR 502.62 in account ***46262812"
+    },
+    {
+      "effectiveDate": "2024-07-26T06:10:33.867Z",
+      "name": "Hammes - Corkery",
+      "amount": "338.06",
+      "type": "invoice",
+      "direction": "deposit",
+      "memo": "withdrawal transaction at Turcotte - Hartmann using card ending with ***(...0044) for INR 774.56 in account ***50414822"
+    },
+    {
+      "effectiveDate": "2024-07-25T20:48:21.086Z",
+      "name": "Halvorson, Schinner and Altenwerth",
+      "amount": "783.83",
+      "type": "invoice",
+      "direction": "withdrawal",
+      "memo": "invoice transaction at Yundt Group using card ending with ***(...2501) for MMK 447.19 in account ***15953450"
+    },
+    {
+      "effectiveDate": "2024-07-26T00:49:04.693Z",
+      "name": "Harris and Sons",
+      "amount": "934.00",
+      "type": "deposit",
+      "direction": "withdrawal",
+      "memo": "invoice transaction at Haley - Walsh using card ending with ***(...3459) for DJF 288.92 in account ***58475380"
+    },
+    {
+      "effectiveDate": "2024-07-26T04:27:04.442Z",
+      "name": "Pollich - Yost",
+      "amount": "534.98",
+      "type": "payment",
+      "direction": "deposit",
+      "memo": "payment transaction at Dibbert, Kemmer and Braun using card ending with ***(...1101) for LSL 876.81 in account ***18251039"
+    },
+    {
+      "effectiveDate": "2024-07-26T01:43:47.226Z",
+      "name": "Nader Inc",
+      "amount": "751.83",
+      "type": "invoice",
+      "direction": "deposit",
+      "memo": "deposit transaction at Sanford, Dickens and Blick using card ending with ***(...5838) for PKR 712.59 in account ***44014052"
+    },
+    {
+      "effectiveDate": "2024-07-26T12:14:23.350Z",
+      "name": "Haag - Ledner",
+      "amount": "142.20",
+      "type": "deposit",
+      "direction": "deposit",
+      "memo": "withdrawal transaction at Hilll, Kreiger and Doyle using card ending with ***(...5455) for DKK 185.34 in account ***00276501"
+    },
+    {
+      "effectiveDate": "2024-07-26T11:27:58.442Z",
+      "name": "Rempel Group",
+      "amount": "28.32",
+      "type": "invoice",
+      "direction": "withdrawal",
+      "memo": "deposit transaction at Reichert, Lindgren and Franecki using card ending with ***(...1999) for ANG 665.38 in account ***47742606"
+    },
+    {
+      "effectiveDate": "2024-07-25T20:12:41.559Z",
+      "name": "Conroy - Schmidt",
+      "amount": "582.93",
+      "type": "payment",
+      "direction": "deposit",
+      "memo": "deposit transaction at Dare, Legros and Hyatt using card ending with ***(...5511) for MOP 185.66 in account ***51681020"
+    },
+    {
+      "effectiveDate": "2024-07-26T14:48:46.079Z",
+      "name": "Brakus and Sons",
+      "amount": "665.30",
+      "type": "withdrawal",
+      "direction": "withdrawal",
+      "memo": "deposit transaction at Mann Inc using card ending with ***(...4946) for IRR 182.64 in account ***86142310"
+    },
+    {
+      "effectiveDate": "2024-07-26T15:31:28.278Z",
+      "name": "Cormier, Pagac and Kub",
+      "amount": "887.46",
+      "type": "deposit",
+      "direction": "withdrawal",
+      "memo": "withdrawal transaction at Keeling - Nikolaus using card ending with ***(...0634) for UZS 37.95 in account ***17484154"
+    },
+    {
+      "effectiveDate": "2024-07-26T14:47:17.229Z",
+      "name": "Turcotte, Hintz and Raynor",
+      "amount": "683.46",
+      "type": "payment",
+      "direction": "deposit",
+      "memo": "deposit transaction at Krajcik, Bogan and Boehm using card ending with ***(...4620) for CHF 958.84 in account ***66694738"
+    },
+    {
+      "effectiveDate": "2024-07-26T03:41:30.830Z",
+      "name": "Hettinger, Runolfsdottir and Haag",
+      "amount": "379.11",
+      "type": "payment",
+      "direction": "deposit",
+      "memo": "payment transaction at Kuhn Inc using card ending with ***(...7921) for UZS 723.29 in account ***35856096"
+    },
+    {
+      "effectiveDate": "2024-07-26T14:11:38.355Z",
+      "name": "Runolfsson - Schimmel",
+      "amount": "780.67",
+      "type": "deposit",
+      "direction": "withdrawal",
+      "memo": "invoice transaction at Runolfsson, Walker and Hoppe using card ending with ***(...1404) for ETB 375.75 in account ***78850482"
+    },
+    {
+      "effectiveDate": "2024-07-26T05:28:42.482Z",
+      "name": "Hartmann, Renner and Lowe",
+      "amount": "487.76",
+      "type": "invoice",
+      "direction": "withdrawal",
+      "memo": "invoice transaction at Rau, Glover and Bergstrom using card ending with ***(...1011) for USD 456.01 in account ***49504764"
+    },
+    {
+      "effectiveDate": "2024-07-26T09:24:21.237Z",
+      "name": "Denesik, Moen and Hartmann",
+      "amount": "980.36",
+      "type": "payment",
+      "direction": "deposit",
+      "memo": "withdrawal transaction at Hyatt LLC using card ending with ***(...3997) for HKD 305.98 in account ***97250474"
+    },
+    {
+      "effectiveDate": "2024-07-26T10:22:04.459Z",
+      "name": "Ward - Armstrong",
+      "amount": "676.27",
+      "type": "invoice",
+      "direction": "deposit",
+      "memo": "deposit transaction at Koelpin, Ledner and Turcotte using card ending with ***(...9304) for TOP 347.96 in account ***36958719"
+    },
+    {
+      "effectiveDate": "2024-07-26T11:09:01.668Z",
+      "name": "Schmidt - Mayer",
+      "amount": "779.41",
+      "type": "invoice",
+      "direction": "deposit",
+      "memo": "payment transaction at Terry, Kirlin and Howell using card ending with ***(...8075) for PKR 498.89 in account ***26483847"
+    },
+    {
+      "effectiveDate": "2024-07-26T13:55:18.047Z",
+      "name": "Kuhic, Trantow and Gulgowski",
+      "amount": "470.39",
+      "type": "withdrawal",
+      "direction": "withdrawal",
+      "memo": "withdrawal transaction at Blick - Paucek using card ending with ***(...8123) for SCR 953.06 in account ***85261879"
+    },
+    {
+      "effectiveDate": "2024-07-26T07:26:45.645Z",
+      "name": "Veum Group",
+      "amount": "913.05",
+      "type": "deposit",
+      "direction": "deposit",
+      "memo": "deposit transaction at Ritchie - Sauer using card ending with ***(...4945) for TMT 790.91 in account ***96557634"
+    },
+    {
+      "effectiveDate": "2024-07-26T07:08:49.248Z",
+      "name": "Gulgowski - Smitham",
+      "amount": "702.76",
+      "type": "payment",
+      "direction": "withdrawal",
+      "memo": "payment transaction at Herman Inc using card ending with ***(...8263) for BND 874.81 in account ***77080022"
+    },
+    {
+      "effectiveDate": "2024-07-25T23:49:03.675Z",
+      "name": "Mueller, Robel and Luettgen",
+      "amount": "474.62",
+      "type": "deposit",
+      "direction": "withdrawal",
+      "memo": "withdrawal transaction at Conn - Beier using card ending with ***(...6234) for ZWL 515.79 in account ***97736010"
+    },
+    {
+      "effectiveDate": "2024-07-25T20:48:48.854Z",
+      "name": "Bahringer Group",
+      "amount": "41.08",
+      "type": "withdrawal",
+      "direction": "withdrawal",
+      "memo": "payment transaction at MacGyver, Corwin and Walker using card ending with ***(...0250) for TRY 177.64 in account ***37916455"
+    },
+    {
+      "effectiveDate": "2024-07-26T05:32:03.240Z",
+      "name": "Monahan, King and Reinger",
+      "amount": "390.50",
+      "type": "invoice",
+      "direction": "withdrawal",
+      "memo": "withdrawal transaction at Nader, Schamberger and Schneider using card ending with ***(...1310) for NIO 134.38 in account ***04262509"
+    },
+    {
+      "effectiveDate": "2024-07-26T16:38:20.934Z",
+      "name": "Emmerich and Sons",
+      "amount": "412.62",
+      "type": "withdrawal",
+      "direction": "withdrawal",
+      "memo": "invoice transaction at Hauck, Keeling and Stroman using card ending with ***(...5814) for IRR 447.44 in account ***11660490"
+    },
+    {
+      "effectiveDate": "2024-07-25T21:22:01.680Z",
+      "name": "Aufderhar - Bartell",
+      "amount": "829.89",
+      "type": "payment",
+      "direction": "withdrawal",
+      "memo": "payment transaction at Marvin - Lesch using card ending with ***(...5588) for CLP 71.84 in account ***81926034"
+    },
+    {
+      "effectiveDate": "2024-07-26T00:17:16.502Z",
+      "name": "Weissnat - Grant",
+      "amount": "554.13",
+      "type": "payment",
+      "direction": "deposit",
+      "memo": "deposit transaction at Okuneva, Sipes and Farrell using card ending with ***(...5576) for KMF 520.75 in account ***73005615"
+    },
+    {
+      "effectiveDate": "2024-07-26T14:31:44.608Z",
+      "name": "Swift Inc",
+      "amount": "638.77",
+      "type": "invoice",
+      "direction": "deposit",
+      "memo": "payment transaction at Mraz, Dietrich and Pfannerstill using card ending with ***(...8273) for HNL 106.57 in account ***39225255"
+    },
+    {
+      "effectiveDate": "2024-07-26T15:52:02.065Z",
+      "name": "Feest, Kunze and Erdman",
+      "amount": "654.02",
+      "type": "deposit",
+      "direction": "deposit",
+      "memo": "deposit transaction at Ferry - Sanford using card ending with ***(...1076) for GTQ 441.11 in account ***20577008"
+    },
+    {
+      "effectiveDate": "2024-07-25T20:14:27.258Z",
+      "name": "Konopelski Group",
+      "amount": "835.69",
+      "type": "withdrawal",
+      "direction": "withdrawal",
+      "memo": "invoice transaction at Kuhlman, Upton and Rodriguez using card ending with ***(...4857) for PGK 420.94 in account ***75426093"
+    },
+    {
+      "effectiveDate": "2024-07-26T05:13:36.716Z",
+      "name": "Lemke - Witting",
+      "amount": "528.13",
+      "type": "deposit",
+      "direction": "deposit",
+      "memo": "payment transaction at Waelchi - McClure using card ending with ***(...0982) for BDT 113.65 in account ***07037470"
+    },
+    {
+      "effectiveDate": "2024-07-26T15:04:56.204Z",
+      "name": "Collins, Fay and Stehr",
+      "amount": "781.37",
+      "type": "payment",
+      "direction": "deposit",
+      "memo": "withdrawal transaction at Christiansen Group using card ending with ***(...0265) for TRY 350.90 in account ***49173650"
+    },
+    {
+      "effectiveDate": "2024-07-26T08:42:35.729Z",
+      "name": "Pollich LLC",
+      "amount": "953.15",
+      "type": "deposit",
+      "direction": "withdrawal",
+      "memo": "withdrawal transaction at Lehner - Christiansen using card ending with ***(...1560) for MAD 160.40 in account ***77543550"
+    },
+    {
+      "effectiveDate": "2024-07-25T22:28:11.873Z",
+      "name": "Schroeder - Franey",
+      "amount": "429.00",
+      "type": "deposit",
+      "direction": "withdrawal",
+      "memo": "payment transaction at Hudson - Wolf using card ending with ***(...6152) for AOA 700.77 in account ***80125798"
+    },
+    {
+      "effectiveDate": "2024-07-26T12:47:25.830Z",
+      "name": "Sipes, Greenfelder and Stracke",
+      "amount": "386.15",
+      "type": "invoice",
+      "direction": "withdrawal",
+      "memo": "payment transaction at Rempel - Schaden using card ending with ***(...1904) for BAM 684.73 in account ***00201292"
+    },
+    {
+      "effectiveDate": "2024-07-26T08:30:07.706Z",
+      "name": "Medhurst, Tillman and Kuhlman",
+      "amount": "681.25",
+      "type": "withdrawal",
+      "direction": "deposit",
+      "memo": "deposit transaction at Torp Group using card ending with ***(...5524) for UAH 501.25 in account ***00458741"
+    },
+    {
+      "effectiveDate": "2024-07-26T09:38:14.788Z",
+      "name": "Haag, Nolan and Marquardt",
+      "amount": "524.63",
+      "type": "invoice",
+      "direction": "withdrawal",
+      "memo": "payment transaction at Mraz and Sons using card ending with ***(...5971) for SSP 285.20 in account ***11089780"
+    },
+    {
+      "effectiveDate": "2024-07-26T09:51:05.701Z",
+      "name": "Olson, Bosco and Lubowitz",
+      "amount": "211.77",
+      "type": "deposit",
+      "direction": "deposit",
+      "memo": "payment transaction at Ryan - Shanahan using card ending with ***(...6218) for BHD 299.47 in account ***56396215"
+    },
+    {
+      "effectiveDate": "2024-07-26T13:26:52.466Z",
+      "name": "Kassulke, Hane and Reinger",
+      "amount": "609.18",
+      "type": "invoice",
+      "direction": "deposit",
+      "memo": "invoice transaction at Waters - Beer using card ending with ***(...4576) for AED 18.85 in account ***59761603"
+    },
+    {
+      "effectiveDate": "2024-07-25T19:48:29.475Z",
+      "name": "Grady LLC",
+      "amount": "94.82",
+      "type": "deposit",
+      "direction": "deposit",
+      "memo": "payment transaction at Predovic LLC using card ending with ***(...8972) for RWF 278.09 in account ***00334388"
+    },
+    {
+      "effectiveDate": "2024-07-26T16:55:36.391Z",
+      "name": "Stoltenberg, Cronin and Rutherford",
+      "amount": "511.14",
+      "type": "payment",
+      "direction": "withdrawal",
+      "memo": "invoice transaction at Robel, Weimann and Rolfson using card ending with ***(...4107) for MVR 554.00 in account ***11483779"
+    },
+    {
+      "effectiveDate": "2024-07-26T03:30:36.941Z",
+      "name": "Miller - McLaughlin",
+      "amount": "69.99",
+      "type": "payment",
+      "direction": "withdrawal",
+      "memo": "payment transaction at Sawayn - O'Keefe using card ending with ***(...3986) for KRW 116.95 in account ***67792346"
+    },
+    {
+      "effectiveDate": "2024-07-25T23:57:32.996Z",
+      "name": "Cruickshank - Bernhard",
+      "amount": "523.10",
+      "type": "deposit",
+      "direction": "deposit",
+      "memo": "withdrawal transaction at Vandervort - Muller using card ending with ***(...5360) for AWG 394.62 in account ***80859794"
+    },
+    {
+      "effectiveDate": "2024-07-26T08:42:15.357Z",
+      "name": "O'Connell - Bahringer",
+      "amount": "285.73",
+      "type": "deposit",
+      "direction": "deposit",
+      "memo": "invoice transaction at Stehr - D'Amore using card ending with ***(...4144) for EUR 840.99 in account ***65019955"
+    },
+    {
+      "effectiveDate": "2024-07-26T05:33:58.325Z",
+      "name": "Davis - Hane",
+      "amount": "746.14",
+      "type": "payment",
+      "direction": "withdrawal",
+      "memo": "deposit transaction at Franecki - Johnston using card ending with ***(...0438) for NOK 908.64 in account ***82971189"
+    },
+    {
+      "effectiveDate": "2024-07-26T17:53:49.905Z",
+      "name": "Sanford - Brakus",
+      "amount": "531.11",
+      "type": "invoice",
+      "direction": "deposit",
+      "memo": "deposit transaction at Marks Group using card ending with ***(...6573) for DOP 695.90 in account ***24448455"
+    },
+    {
+      "effectiveDate": "2024-07-25T21:55:08.769Z",
+      "name": "Shanahan Group",
+      "amount": "551.80",
+      "type": "payment",
+      "direction": "withdrawal",
+      "memo": "withdrawal transaction at Mosciski - McDermott using card ending with ***(...1553) for LYD 379.39 in account ***17007010"
+    },
+    {
+      "effectiveDate": "2024-07-26T08:55:21.982Z",
+      "name": "Satterfield - Bartell",
+      "amount": "813.13",
+      "type": "deposit",
+      "direction": "deposit",
+      "memo": "payment transaction at Friesen, Spinka and Volkman using card ending with ***(...5926) for BBD 335.41 in account ***63073971"
+    },
+    {
+      "effectiveDate": "2024-07-26T12:46:00.868Z",
+      "name": "O'Conner, Armstrong and Koss",
+      "amount": "72.99",
+      "type": "deposit",
+      "direction": "deposit",
+      "memo": "withdrawal transaction at Towne, Schultz and Gutmann using card ending with ***(...5282) for CLP 202.39 in account ***63354549"
+    },
+    {
+      "effectiveDate": "2024-07-25T23:53:02.470Z",
+      "name": "Lynch, Schaden and Fisher",
+      "amount": "209.02",
+      "type": "deposit",
+      "direction": "deposit",
+      "memo": "invoice transaction at Rolfson LLC using card ending with ***(...4929) for CLP 731.83 in account ***17412601"
+    },
+    {
+      "effectiveDate": "2024-07-25T23:22:56.373Z",
+      "name": "Feest, Witting and Carter",
+      "amount": "88.03",
+      "type": "payment",
+      "direction": "deposit",
+      "memo": "withdrawal transaction at Weissnat and Sons using card ending with ***(...6589) for CHF 606.10 in account ***34324703"
+    },
+    {
+      "effectiveDate": "2024-07-26T14:36:26.064Z",
+      "name": "Goyette Group",
+      "amount": "637.53",
+      "type": "payment",
+      "direction": "deposit",
+      "memo": "invoice transaction at Franey Inc using card ending with ***(...2474) for TRY 358.12 in account ***25590231"
+    },
+    {
+      "effectiveDate": "2024-07-26T17:57:10.884Z",
+      "name": "Macejkovic, Schaden and Glover",
+      "amount": "979.55",
+      "type": "withdrawal",
+      "direction": "withdrawal",
+      "memo": "deposit transaction at Pollich Inc using card ending with ***(...7512) for TND 937.14 in account ***68867541"
+    },
+    {
+      "effectiveDate": "2024-07-25T21:51:59.908Z",
+      "name": "Lynch - Stroman",
+      "amount": "845.49",
+      "type": "withdrawal",
+      "direction": "withdrawal",
+      "memo": "withdrawal transaction at Kovacek Group using card ending with ***(...4918) for MOP 631.97 in account ***18484034"
+    },
+    {
+      "effectiveDate": "2024-07-26T14:07:12.863Z",
+      "name": "Miller - Littel",
+      "amount": "857.71",
+      "type": "invoice",
+      "direction": "deposit",
+      "memo": "deposit transaction at Hintz - Runte using card ending with ***(...8708) for NIO 900.79 in account ***83587054"
+    },
+    {
+      "effectiveDate": "2024-07-26T17:04:06.207Z",
+      "name": "Funk - Goodwin",
+      "amount": "795.42",
+      "type": "payment",
+      "direction": "deposit",
+      "memo": "invoice transaction at Rath Group using card ending with ***(...0334) for KZT 274.71 in account ***42039844"
+    },
+    {
+      "effectiveDate": "2024-07-26T06:01:11.237Z",
+      "name": "Rempel - Stark",
+      "amount": "421.82",
+      "type": "payment",
+      "direction": "withdrawal",
+      "memo": "withdrawal transaction at Paucek - Corwin using card ending with ***(...6759) for ZWL 231.01 in account ***37409191"
+    }
+  ]
+}
