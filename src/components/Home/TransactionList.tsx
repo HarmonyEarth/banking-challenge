@@ -32,7 +32,7 @@ const TransactionList: React.FC<Props> = ({ transactions }) => {
   };
 
   return (
-    <div>
+    <div className="mx-auto max-w-screen-2xl">
       {sortedDates.map((date) => (
         <div key={date} className="my-4">
           <h2 className="text-xl font-semibold">
