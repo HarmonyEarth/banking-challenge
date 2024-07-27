@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import TransactionList from "../components/Home/TransactionList";
 import { useTransactions } from "../hooks/useTransactions";
 import { getCategory } from "../utils/getCategory";
-import { Transaction } from "../types";
+import type { Transaction } from "../types";
 import SpendingBreakdown from "../components/Home/SpendingBreakdown";
 
 const HomePage: React.FC = () => {

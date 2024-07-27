@@ -1,8 +1,8 @@
 import React from "react";
-import dayjs from "dayjs";
 import type { Transaction } from "../../types";
 import { CategoryIcons } from "../CategoryIcons/CategoryIcons";
 import { getCategory } from "../../utils/getCategory";
+import { formatAmount, formatDate } from "../../utils/formatters";
 
 interface TransactionAccordionProps {
   transaction: Transaction;
@@ -69,16 +69,3 @@ const TransactionAccordion: React.FC<TransactionAccordionProps> = ({
 };
 
 export default TransactionAccordion;
-
-//MARK: - Utility Functions
-
-const formatDate = (dateString: string): string => {
-  return dayjs(dateString).format("MMMM D, YYYY h:mm:ss A");
-};
-
-const formatAmount = (amount: number, direction: string): string => {
-  const formattedAmount = amount.toFixed(2);
-  return direction === "withdrawal"
-    ? `-$${formattedAmount}`
-    : `+$${formattedAmount}`;
-};
