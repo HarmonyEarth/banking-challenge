@@ -1,0 +1,252 @@
+{
+  "data": [
+    {
+      "effectiveDate": "2024-07-02T10:00:00Z",
+      "name": "ACME LLC",
+      "amount": 2847.56,
+      "type": "credit",
+      "direction": "deposit",
+      "memo": "First Tuesday deposit"
+    },
+    {
+      "effectiveDate": "2024-07-03T10:00:00Z",
+      "name": "Example Bank",
+      "amount": 89.75,
+      "type": "debit",
+      "direction": "withdrawal",
+      "memo": "ATM withdrawal"
+    },
+    {
+      "effectiveDate": "2024-07-04T10:00:00Z",
+      "name": "Local Grocer",
+      "amount": 23.49,
+      "type": "debit",
+      "direction": "withdrawal",
+      "memo": "Groceries"
+    },
+    {
+      "effectiveDate": "2024-07-05T10:00:00Z",
+      "name": "Tech Corp",
+      "amount": 314.12,
+      "type": "debit",
+      "direction": "withdrawal",
+      "memo": "Purchase of gadgets"
+    },
+    {
+      "effectiveDate": "2024-07-06T10:00:00Z",
+      "name": "Green Valley",
+      "amount": 120.0,
+      "type": "credit",
+      "direction": "withdrawal",
+      "memo": "Purchase of groceries"
+    },
+    {
+      "effectiveDate": "2024-07-07T10:00:00Z",
+      "name": "Cafe Central",
+      "amount": 7.89,
+      "type": "debit",
+      "direction": "withdrawal",
+      "memo": "Coffee and snacks"
+    },
+    {
+      "effectiveDate": "2024-07-08T10:00:00Z",
+      "name": "Freelance Gig",
+      "amount": 475.32,
+      "type": "credit",
+      "direction": "deposit",
+      "memo": "Freelance work payment"
+    },
+    {
+      "effectiveDate": "2024-07-09T10:00:00Z",
+      "name": "Online Store",
+      "amount": 78.6,
+      "type": "debit",
+      "direction": "withdrawal",
+      "memo": "Online shopping"
+    },
+    {
+      "effectiveDate": "2024-07-10T10:00:00Z",
+      "name": "ACME LLC",
+      "amount": 950.4,
+      "type": "credit",
+      "direction": "deposit",
+      "memo": "Salary payment"
+    },
+    {
+      "effectiveDate": "2024-07-11T10:00:00Z",
+      "name": "Utility Provider",
+      "amount": 132.47,
+      "type": "debit",
+      "direction": "withdrawal",
+      "memo": "Electricity bill"
+    },
+    {
+      "effectiveDate": "2024-07-12T10:00:00Z",
+      "name": "Insurance Co.",
+      "amount": 200.0,
+      "type": "credit",
+      "direction": "deposit",
+      "memo": "Insurance refund"
+    },
+    {
+      "effectiveDate": "2024-07-13T10:00:00Z",
+      "name": "Rent Payment",
+      "amount": 1600.0,
+      "type": "debit",
+      "direction": "withdrawal",
+      "memo": "Monthly rent"
+    },
+    {
+      "effectiveDate": "2024-07-14T10:00:00Z",
+      "name": "Freelance Gig",
+      "amount": 250.0,
+      "type": "credit",
+      "direction": "deposit",
+      "memo": "Freelance work payment"
+    },
+    {
+      "effectiveDate": "2024-07-15T10:00:00Z",
+      "name": "Health Clinic",
+      "amount": 95.3,
+      "type": "debit",
+      "direction": "withdrawal",
+      "memo": "Medical appointment"
+    },
+    {
+      "effectiveDate": "2024-07-16T10:00:00Z",
+      "name": "ACME LLC",
+      "amount": 2950.0,
+      "type": "credit",
+      "direction": "deposit",
+      "memo": "Third Tuesday deposit"
+    },
+    {
+      "effectiveDate": "2024-07-17T10:00:00Z",
+      "name": "Bookstore",
+      "amount": 12.95,
+      "type": "debit",
+      "direction": "withdrawal",
+      "memo": "Books"
+    },
+    {
+      "effectiveDate": "2024-07-18T10:00:00Z",
+      "name": "Side Job Payment",
+      "amount": 100.0,
+      "type": "credit",
+      "direction": "deposit",
+      "memo": "Payment for side job"
+    },
+    {
+      "effectiveDate": "2024-07-19T10:00:00Z",
+      "name": "Pet Supplies",
+      "amount": 45.8,
+      "type": "debit",
+      "direction": "withdrawal",
+      "memo": "Pet food and supplies"
+    },
+    {
+      "effectiveDate": "2024-07-20T10:00:00Z",
+      "name": "Gift Shop",
+      "amount": 22.5,
+      "type": "debit",
+      "direction": "withdrawal",
+      "memo": "Gift purchase"
+    },
+    {
+      "effectiveDate": "2024-07-21T10:00:00Z",
+      "name": "Dining Out",
+      "amount": 60.0,
+      "type": "debit",
+      "direction": "withdrawal",
+      "memo": "Dinner with friends"
+    },
+    {
+      "effectiveDate": "2024-07-22T10:00:00Z",
+      "name": "Freelance Gig",
+      "amount": 400.0,
+      "type": "credit",
+      "direction": "deposit",
+      "memo": "Freelance work payment"
+    },
+    {
+      "effectiveDate": "2024-07-23T10:00:00Z",
+      "name": "Department Store",
+      "amount": 120.75,
+      "type": "debit",
+      "direction": "withdrawal",
+      "memo": "Clothing purchase"
+    },
+    {
+      "effectiveDate": "2024-07-24T10:00:00Z",
+      "name": "Clothing Store",
+      "amount": 150.0,
+      "type": "credit",
+      "direction": "deposit",
+      "memo": "Product return"
+    },
+    {
+      "effectiveDate": "2024-07-25T10:00:00Z",
+      "name": "Coffee Shop",
+      "amount": 12.0,
+      "type": "debit",
+      "direction": "withdrawal",
+      "memo": "Morning coffee"
+    },
+    {
+      "effectiveDate": "2024-07-26T10:00:00Z",
+      "name": "Investment Co.",
+      "amount": 500.0,
+      "type": "credit",
+      "direction": "deposit",
+      "memo": "Investment dividend"
+    },
+    {
+      "effectiveDate": "2024-07-31T19:00:00Z",
+      "name": "Nuevo Seoul",
+      "amount": 25.0,
+      "type": "credit",
+      "direction": "withdrawal",
+      "memo": "Payment for Chicken and Tacos"
+    },
+    {
+      "effectiveDate": "2024-07-27T10:00:00Z",
+      "name": "Fitness Center",
+      "amount": 40.0,
+      "type": "debit",
+      "direction": "withdrawal",
+      "memo": "Gym membership"
+    },
+    {
+      "effectiveDate": "2024-07-28T10:00:00Z",
+      "name": "Online Course",
+      "amount": 80.0,
+      "type": "debit",
+      "direction": "withdrawal",
+      "memo": "Course fee"
+    },
+    {
+      "effectiveDate": "2024-07-29T10:00:00Z",
+      "name": "Subscription Service",
+      "amount": 15.99,
+      "type": "debit",
+      "direction": "withdrawal",
+      "memo": "Monthly subscription"
+    },
+    {
+      "effectiveDate": "2024-07-30T10:00:00Z",
+      "name": "Plumbing Co.",
+      "amount": 25.0,
+      "type": "credit",
+      "direction": "deposit",
+      "memo": "Refund for service"
+    },
+    {
+      "effectiveDate": "2024-07-31T10:00:00Z",
+      "name": "ATM Withdrawal",
+      "amount": 40.0,
+      "type": "debit",
+      "direction": "withdrawal",
+      "memo": "I needed the money"
+    }
+  ]
+}

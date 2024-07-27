@@ -1,37 +1,92 @@
 import { Worker, isMainThread, parentPort, workerData } from "worker_threads";
 import { writeFileSync } from "fs";
-import { fileURLToPath } from "url"; // Import fileURLToPath from url module
+import { fileURLToPath } from "url";
 import { faker } from "@faker-js/faker";
-import path from "path"; // Import path module to handle file paths
+import path from "path";
 
 const __filename = fileURLToPath(import.meta.url);
 
-// Generate a fake transaction
-const generateTransaction = () => {
-  return {
-    effectiveDate: faker.date.recent().toISOString(),
-    name: faker.company.name(),
-    amount: faker.finance.amount({
-      min: 0,
-      max: 1000,
-      dec: 2,
-    }),
-    type: faker.finance.transactionType(),
-    direction: faker.helpers.arrayElement(["withdrawal", "deposit"]),
-    memo: faker.finance.transactionDescription(),
+// Helper function to get the first and third Tuesdays of July 2024
+const getSpecificDates = () => {
+  const dates = [];
+  const year = 2024;
+  const month = 6; // July (0-based index)
+
+  // Function to find the nth occurrence of a weekday in a month
+  const getNthWeekday = (n, weekday, month, year) => {
+    const date = new Date(year, month, 1);
+    date.setDate(
+      date.getDate() + ((weekday - date.getDay() + 7) % 7) + (n - 1) * 7,
+    );
+    return date;
   };
+
+  // Find the first and third Tuesdays of July 2024
+  dates.push(getNthWeekday(1, 2, month, year)); // 2 represents Tuesday
+  dates.push(getNthWeekday(3, 2, month, year));
+
+  return dates.map((date) => date.toISOString());
 };
 
-// Main thread logic
+// Generate a fake transaction
+const generateTransaction = (
+  effectiveDate,
+  name,
+  amount,
+  type,
+  direction,
+  memo,
+) => ({
+  effectiveDate,
+  name,
+  amount: amount.toFixed(2),
+  type,
+  direction,
+  memo,
+});
+
 if (isMainThread) {
-  const numWorkers = 4; // Number of workers to create
-  const transactionsPerWorker = 25; // Total number of transactions per worker
+  const numWorkers = 4;
+  const totalTransactions = 33; // Total number of transactions
+  const transactionsPerWorker = Math.floor(totalTransactions / numWorkers); // Number of transactions per worker
+  const remainingTransactions = totalTransactions % numWorkers; // Adjust for the last worker
   let remainingWorkers = numWorkers;
   let transactions = [];
+  const specificDates = getSpecificDates();
 
+  // Amounts for deposit transactions
+  const depositAmounts = [
+    parseFloat(faker.finance.amount({ min: 2300, max: 3000, dec: 2 })),
+    parseFloat(faker.finance.amount({ min: 2300, max: 3000, dec: 2 })),
+  ];
+
+  let totalDeposits = depositAmounts.reduce((acc, amount) => acc + amount, 0);
+
+  // Create transactions for the first and third Tuesdays with specified deposit amounts
+  const predefinedTransactions = specificDates.flatMap((date, index) => [
+    generateTransaction(
+      date,
+      "ACME LLC",
+      depositAmounts[index],
+      "credit",
+      "deposit",
+      "Deposit for the first Tuesday",
+    ),
+  ]);
+
+  // Generate transactions for each worker
   for (let i = 0; i < numWorkers; i++) {
+    const isLastWorker = i === numWorkers - 1;
+    const numWorkerTransactions = isLastWorker
+      ? transactionsPerWorker + remainingTransactions
+      : transactionsPerWorker;
+
     const worker = new Worker(__filename, {
-      workerData: { transactionsPerWorker },
+      workerData: {
+        numWorkerTransactions,
+        predefinedTransactions,
+        totalDeposits,
+      },
     });
 
     worker.on("message", (data) => {
@@ -39,19 +94,25 @@ if (isMainThread) {
       remainingWorkers--;
 
       if (remainingWorkers === 0) {
-        // Construct the path for the output file
+        // Limit total transactions to 33
+        transactions = transactions.slice(0, totalTransactions);
+
         const outputPath = path.resolve(
-          path.dirname(__filename),
-          "transactions.json",
+          "public",
+          "api",
+          "transactions_new.json",
         );
 
-        // Write the data to a file in the src/api directory
         writeFileSync(
           outputPath,
-          JSON.stringify({ data: transactions }, null, 2),
+          JSON.stringify(
+            { data: [...predefinedTransactions, ...transactions] },
+            null,
+            2,
+          ),
         );
         console.log(
-          "Fake data generated and saved to src/api/transactions.json",
+          "Fake data generated and saved to public/api/transactions.json",
         );
       }
     });
@@ -67,10 +128,43 @@ if (isMainThread) {
     });
   }
 } else {
-  // Worker thread logic: Generate data
-  const transactions = Array.from(
-    { length: workerData.transactionsPerWorker },
-    generateTransaction,
-  );
+  const { numWorkerTransactions, predefinedTransactions, totalDeposits } =
+    workerData;
+
+  // Generate transactions
+  const generateTransactions = (numTransactions) => {
+    let transactions = [];
+    let remainingBalance = totalDeposits;
+
+    for (let i = 0; i < numTransactions; i++) {
+      let effectiveDate = faker.date
+        .between("2024-07-01", "2024-07-31")
+        .toISOString();
+      let name = faker.company.name();
+      let amount = parseFloat(faker.finance.amount(5, 1000, 2));
+      let type = faker.helpers.arrayElement(["debit", "credit"]);
+      let direction = faker.helpers.arrayElement(["deposit", "withdrawal"]);
+      let memo = faker.finance.transactionDescription();
+
+      if (direction === "withdrawal" && amount > remainingBalance) {
+        continue; // Skip this transaction to avoid negative balance
+      }
+
+      if (direction === "withdrawal") {
+        remainingBalance -= amount;
+      }
+
+      transactions.push(
+        generateTransaction(effectiveDate, name, amount, type, direction, memo),
+      );
+    }
+
+    return transactions;
+  };
+
+  const transactions = [
+    ...predefinedTransactions,
+    ...generateTransactions(numWorkerTransactions),
+  ];
   parentPort.postMessage({ transactions });
 }
