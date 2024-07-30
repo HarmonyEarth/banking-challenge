@@ -9,7 +9,7 @@ import {
 } from "recharts";
 import type { Transaction } from "../../types";
 import { getCategory } from "../../utils/getCategory";
-import { COLORS } from "../../constants";
+import { COLORS, TRANSACTION_DIRECTION } from "../../constants";
 
 interface Props {
   transactions?: Transaction[];
@@ -50,7 +50,7 @@ const getSpendingByCategory = (transactions: Transaction[] | undefined) => {
   if (!transactions) return [];
 
   const spendingTransactions = transactions.filter(
-    (transaction) => transaction.direction === "withdrawal",
+    (transaction) => transaction.direction === TRANSACTION_DIRECTION.WITHDRAWAL,
   );
 
   const spendingByCategory = spendingTransactions.reduce(

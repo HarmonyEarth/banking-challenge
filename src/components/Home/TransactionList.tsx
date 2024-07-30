@@ -2,6 +2,7 @@ import React, { useState, useMemo } from "react";
 import dayjs from "dayjs";
 import type { Transaction } from "../../types";
 import TransactionAccordion from "./TransactionAccordion";
+import { TRANSACTION_DIRECTION } from "../../constants";
 
 interface Props {
   transactions?: Transaction[];
@@ -92,7 +93,7 @@ const calculateRunningBalance = (
       )
       .forEach((transaction) => {
         runningBalance +=
-          transaction.direction === "withdrawal"
+          transaction.direction === TRANSACTION_DIRECTION.WITHDRAWAL
             ? -transaction.amount
             : transaction.amount;
         balanceMap.set(transaction.effectiveDate, runningBalance);

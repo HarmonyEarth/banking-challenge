@@ -3,15 +3,16 @@ import type { Transaction } from "../../types";
 import { CategoryIcons } from "../CategoryIcons/CategoryIcons";
 import { getCategory } from "../../utils/getCategory";
 import { formatAmount, formatDate } from "../../utils/formatters";
+import { TRANSACTION_DIRECTION } from "../../constants";
 
-interface TransactionAccordionProps {
+interface Props {
   transaction: Transaction;
   balance: number;
   isExpanded: boolean;
   onToggle: () => void;
 }
 
-const TransactionAccordion: React.FC<TransactionAccordionProps> = ({
+const TransactionAccordion: React.FC<Props> = ({
   transaction,
   balance,
   isExpanded,
@@ -37,7 +38,8 @@ const TransactionAccordion: React.FC<TransactionAccordionProps> = ({
         <div className="text-right">
           <p
             className={`font-semibold ${
-              transaction.direction === "deposit" && "text-green-700"
+              transaction.direction === TRANSACTION_DIRECTION.DEPOSIT &&
+              "text-green-700"
             }`}
           >
             {formatAmount(transaction.amount, transaction.direction)}

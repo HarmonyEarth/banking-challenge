@@ -3,6 +3,7 @@ import { writeFileSync } from "fs";
 import { fileURLToPath } from "url";
 import { faker } from "@faker-js/faker";
 import path from "path";
+import { TRANSACTION_DIRECTION } from "../constants";
 
 const __filename = fileURLToPath(import.meta.url);
 
@@ -69,7 +70,7 @@ if (isMainThread) {
       "ACME LLC",
       depositAmounts[index],
       "credit",
-      "deposit",
+      TRANSACTION_DIRECTION.DEPOSIT,
       "Deposit for the first Tuesday",
     ),
   ]);
@@ -143,14 +144,20 @@ if (isMainThread) {
       let name = faker.company.name();
       let amount = parseFloat(faker.finance.amount(5, 1000, 2));
       let type = faker.helpers.arrayElement(["debit", "credit"]);
-      let direction = faker.helpers.arrayElement(["deposit", "withdrawal"]);
+      let direction = faker.helpers.arrayElement([
+        TRANSACTION_DIRECTION.DEPOSIT,
+        TRANSACTION_DIRECTION.WITHDRAWAL,
+      ]);
       let memo = faker.finance.transactionDescription();
 
-      if (direction === "withdrawal" && amount > remainingBalance) {
+      if (
+        direction === TRANSACTION_DIRECTION.WITHDRAWAL &&
+        amount > remainingBalance
+      ) {
         continue; // Skip this transaction to avoid negative balance
       }
 
-      if (direction === "withdrawal") {
+      if (direction === TRANSACTION_DIRECTION.WITHDRAWAL) {
         remainingBalance -= amount;
       }
 

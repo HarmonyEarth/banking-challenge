@@ -4,6 +4,7 @@ import { useTransactions } from "../hooks/useTransactions";
 import { getCategory } from "../utils/getCategory";
 import type { Transaction } from "../types";
 import SpendingBreakdown from "../components/Home/SpendingBreakdown";
+import { TRANSACTION_DIRECTION } from "../constants";
 
 const HomePage: React.FC = () => {
   const { data, isLoading, error } = useTransactions();
@@ -58,7 +59,7 @@ export default HomePage;
 const calculateBalance = (transactions: Transaction[] | undefined) => {
   if (!transactions) return 0;
   return transactions.reduce((total, transaction) => {
-    return transaction.direction === "withdrawal"
+    return transaction.direction === TRANSACTION_DIRECTION.WITHDRAWAL
       ? total - transaction.amount
       : total + transaction.amount;
   }, 0);
