@@ -1,8 +1,11 @@
 # Online Banking Application Demo
 
+View the website here: [Banking Challenge](https://banking-challenge.vercel.app/)
+
+
 ## Overview
 
-This project is my submission for an online banking application challenge. The goal was to create a simple yet polished demo of an online banking application. This application was created using React, Vite, TypeScript, Zod, Tanstack React Router, Tanstack React Query, Tailwind CSS, Vitest, and Recharts. The application fetches a list of transactions, displays them in a user-friendly list, and shows detailed information when a transaction is clicked. 
+This project is my submission for an online banking application challenge. The goal was to create a simple yet polished demo of an online banking application. This application was created using React, Vite, TypeScript, Zod, Tanstack React Router, Tanstack React Query, Tailwind CSS, Vitest, and Recharts. The application fetches a list of transactions, displays them in a user-friendly list, and shows detailed information when a transaction is clicked. The app shows the current balance along with a spending breakdown separated by categories (Dining, Groceries, etc.)
 
 ## Features
 
