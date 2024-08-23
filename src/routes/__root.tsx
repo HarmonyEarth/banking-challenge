@@ -5,7 +5,7 @@ export const Route = createRootRoute({
   component: () => (
     <>
       <div className="flex h-20 place-items-center justify-center gap-2 bg-green-700">
-        <h1 className="text-3xl font-bold text-white">Treasury Homework</h1>
+        <h1 className="text-3xl font-bold text-white">Banking Challenge</h1>
       </div>
       <br />
       <Outlet />
